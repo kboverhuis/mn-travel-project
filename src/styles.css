@@ -11,6 +11,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 64px;
 }
 
 section {
@@ -19,7 +20,8 @@ section {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba( 0, 0, 0, 0.6)), url("images/rome-homepage.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)),
+    url("images/rome-homepage.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -65,11 +67,15 @@ header a {
 }
 
 footer {
-color: white;
-background-image: linear-gradient(rgba(39, 32, 68, 0.8), rgba(39, 32, 68, 0.8)), url("images/rome.png");
-background-size: cover;
-background-repeat: no-repeat;
-padding: 100px 0;
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("images/rome.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
 }
 
 footer h3 {
@@ -98,7 +104,6 @@ footer li {
 footer a {
   color: white;
   opacity: 0.7;
-  text-decoration: none;
 }
 
 @media (max-width: 960px) {
