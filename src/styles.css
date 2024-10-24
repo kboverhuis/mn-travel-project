@@ -35,7 +35,7 @@ body {
   line-height: 21px;
   letter-spacing: 3px;
   text-transform: uppercase;
-  padding: 16px 32px;
+  padding: 16px;
   text-decoration: none;
 }
 
@@ -165,7 +165,6 @@ main p {
   color: #272044;
   line-height: 1.5;
   opacity: 0.7;
-  margin: 0;
 }
 
 footer {
