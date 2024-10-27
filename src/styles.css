@@ -46,6 +46,15 @@ body {
   width: 100%;
 }
 
+.embed {
+ width: cover;
+}
+
+.gallery {
+  font-weight: 500;
+  padding: 30px;
+}
+
 .grid {
   display: grid;
   grid-gap: 64px;
@@ -180,7 +189,7 @@ footer {
       rgba(39, 32, 68, 0.8),
       rgba(39, 32, 68, 0.8)
     ),
-    url("images/rome.png");
+    url("/images/minneapolis-skyline.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 0;
@@ -242,5 +251,9 @@ footer a {
 
   .embed {
     display: none;
+  }
+
+  .gallery {
+padding: 10px;
   }
 }
